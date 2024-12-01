@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tunes_player_app/Views/home_view.dart';
 
 void main() {
   runApp(const TunesPlayerApp());
@@ -12,6 +13,7 @@ class TunesPlayerApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark(),
+      home: const HomeView(),
     );
   }
 }
