@@ -5,6 +5,16 @@ class HomeView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      appBar: AppBar(
+        centerTitle: true,
+        title: const Text(
+          'Flutter Tune',
+          style: TextStyle(color: Colors.white),
+        ),
+        backgroundColor: const Color(0xff253238),
+        elevation: 0,
+      ),
+    );
   }
 }

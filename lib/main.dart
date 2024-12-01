@@ -12,7 +12,6 @@ class TunesPlayerApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData.dark(),
       home: const HomeView(),
     );
   }
